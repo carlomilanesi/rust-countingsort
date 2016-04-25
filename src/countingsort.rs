@@ -1,7 +1,7 @@
-pub fn counting_sort<T: Clone, F: Fn(&T) -> usize>(
+pub fn counting_sort<T, F: Fn(&T) -> usize>(
     data: &mut [T],
     n_keys: usize,
-    get_key: &F,
+    get_key: F,
     ) {
     let mut buffer = Vec::<T>::with_capacity(data.len());
     unsafe {
@@ -9,7 +9,6 @@ pub fn counting_sort<T: Clone, F: Fn(&T) -> usize>(
         buffer.set_len(data.len());
         
         let mut counters = vec![0; n_keys];
-        //let mut counters = &mut vec![0; n_keys];
         for x in data.iter() {
             counters[get_key(x)] += 1;
         }

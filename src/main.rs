@@ -1,5 +1,5 @@
 mod countingsort;
-use countingsort::*;
+use countingsort::counting_sort;
 extern crate rand;
 use rand::Rng;
 
