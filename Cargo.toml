@@ -1,8 +1,8 @@
 [package]
 name = "countingsort"
-version = "0.0.0"
+version = "0.1.0"
 authors = ["cmilanesi"]
 
 [dependencies]
 rand = "0.3.0"
-
+stopwatch = "0.0.6"

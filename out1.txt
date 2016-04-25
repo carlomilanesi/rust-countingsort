@@ -1,0 +1,37 @@
+Rust
+senza unsafe
+counting_sort compact 200 10 performed 1027000-1030000 iterations per second.
+counting_sort compact 200 200 performed 939000-940000 iterations per second.
+counting_sort compact 200 4000 performed 250000-250000 iterations per second.
+sort compact 200 4000 performed 210368-211365 iterations per second.
+counting_sort compact 4000 10 performed 44955-45000 iterations per second.
+counting_sort compact 4000 200 performed 43781-43868 iterations per second.
+counting_sort compact 4000 4000 performed 25870-25870 iterations per second.
+sort compact 4000 4000 performed 5071-5084 iterations per second.
+counting_sort large 200 10 performed 31527-31589 iterations per second.
+counting_sort large 200 200 performed 31311-31372 iterations per second.
+counting_sort large 200 4000 performed 28712-28741 iterations per second.
+sort large 200 4000 performed 51130-51231 iterations per second.
+counting_sort large 4000 10 performed 1237-1242 iterations per second.
+counting_sort large 4000 200 performed 1216-1218 iterations per second.
+counting_sort large 4000 4000 performed 1189-1191 iterations per second.
+sort large 4000 4000 performed 1274-1275 iterations per second.
+
+con unsafe
+counting_sort compact 200 10 performed 1359000-1371000 iterations per second.
+counting_sort compact 200 200 performed 1168000-1173000 iterations per second.
+counting_sort compact 200 4000 performed 183816-184000 iterations per second.
+sort compact 200 4000 performed 224327-224775 iterations per second.
+counting_sort compact 4000 10 performed 69238-69582 iterations per second.
+counting_sort compact 4000 200 performed 62191-62314 iterations per second.
+counting_sort compact 4000 4000 performed 31250-31341 iterations per second.
+sort compact 4000 4000 performed 5084-5093 iterations per second.
+counting_sort large 200 10 performed 134596-134730 iterations per second.
+counting_sort large 200 200 performed 129482-129482 iterations per second.
+counting_sort large 200 4000 performed 79522-80000 iterations per second.
+sort large 200 4000 performed 59820-59940 iterations per second.
+counting_sort large 4000 10 performed 2652-2664 iterations per second.
+counting_sort large 4000 200 performed 2617-2626 iterations per second.
+counting_sort large 4000 4000 performed 2495-2497 iterations per second.
+sort large 4000 4000 performed 1267-1268 iterations per second.
+
